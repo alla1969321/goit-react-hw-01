@@ -1,0 +1,70 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin-bottom: 60px;
+  font-size: 30px;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.47);
+}
+
+.tableHead {
+  padding: 0;
+  margin: 0;
+  text-align: start;
+  background: linear-gradient(
+    189deg,
+    rgba(0, 208, 226, 1) 0%,
+    rgba(51, 211, 223, 1) 39%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.tableHeadRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 80px;
+  color: #8e8e8e;
+}
+
+.tableHeadItem {
+  text-align: center;
+  width: 400px;
+}
+
+.tableBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.tableBodyRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 52px;
+  color: #3a3f60;
+}
+
+.evenItemBgColor {
+  background-color: linear-gradient(
+    90deg,
+    rgba(157, 192, 194, 1) 0%,
+    rgba(249, 249, 249, 1) 100%
+  );
+}
+
+.oddItemBgColor {
+  background-color: aliceblue;
+}
+
+.tableBodyItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
